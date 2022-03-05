@@ -8,6 +8,7 @@ import { HeaderComponent } from './components/header/header.component';
 import { NavBarComponent } from './components/nav-bar/nav-bar.component';
 import { WelcomeComponent } from './components/welcome/welcome.component';
 import { TheBandComponent } from './components/the-band/the-band.component';
+import { MediaComponent } from './components/media/media.component';
 
 
 @NgModule({
@@ -17,7 +18,8 @@ import { TheBandComponent } from './components/the-band/the-band.component';
     FooterComponent,
     NavBarComponent,
     WelcomeComponent,
-    TheBandComponent
+    TheBandComponent,
+    MediaComponent
   ],
   imports: [
     BrowserModule,
