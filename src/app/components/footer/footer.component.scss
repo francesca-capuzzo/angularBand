@@ -1,7 +1,8 @@
 .container{
     background-repeat: no-repeat;
     background-size: cover;
-    color: white;    
+    color: white;  
+    margin-top: 20px;  
 }
 
 .top-footer{
@@ -16,6 +17,10 @@
 .top-footer-right{
     align-self: center;
     margin-top: 20px;
+}
+
+.top-footer-right span{
+    margin-left: 20px;
 }
 
 .top-footer-left{
