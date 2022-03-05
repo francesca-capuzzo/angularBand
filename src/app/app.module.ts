@@ -24,7 +24,7 @@ import { MediaComponent } from './components/media/media.component';
     NavBarComponent,
     WelcomeComponent,
     TheBandComponent,
-    MediaComponent
+    MediaComponent,
     SectComponent,
     LatestComponent,
     NewAlbumComponent,
