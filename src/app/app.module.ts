@@ -13,6 +13,8 @@ import { SectComponent } from './components/welcome/sub-comp/sect/sect.component
 import { WelcomeComponent } from './components/welcome/welcome.component';
 import { TheBandComponent } from './components/the-band/the-band.component';
 import { MediaComponent } from './components/media/media.component';
+import { ToursComponent } from './components/tours/tours.component';
+import { TourElementComponent } from './components/tours/sub-comp/tour-element/tour-element.component';
 
 
 
@@ -24,11 +26,13 @@ import { MediaComponent } from './components/media/media.component';
     NavBarComponent,
     WelcomeComponent,
     TheBandComponent,
-    MediaComponent
+    MediaComponent,
     SectComponent,
     LatestComponent,
     NewAlbumComponent,
-    NewButtonComponent
+    NewButtonComponent,
+    ToursComponent,
+    TourElementComponent
   ],
   imports: [
     BrowserModule,
