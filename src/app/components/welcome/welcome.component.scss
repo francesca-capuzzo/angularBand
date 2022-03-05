@@ -1,0 +1,24 @@
+.container{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1.9fr 5.5fr 1fr;
+    grid-template-areas: "latest"
+                "sector"
+                "newAlbum"
+                "newAButton";
+}
+.sect{
+    grid-area: sector;
+}
+
+.latest{
+    grid-area: latest;
+}
+
+.new-album{
+    grid-area: newAlbum;
+}
+
+.new-button{
+    grid-area: newAButton;
+}
