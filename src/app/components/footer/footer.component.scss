@@ -29,7 +29,10 @@
     flex-direction: row;
     align-items: flex-start;
 }
-.top-footer-left a{
+.link-container{
+    align-self: center ;
+}
+.link-container a{
     align-self: center ;
     margin-left: 20px;
     margin-top: 20px;
@@ -43,4 +46,40 @@
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+@media (max-width: 600px) {
+    .top-footer-left{
+        flex-direction: column;
+    }
+
+    .top-footer{
+        flex-direction: column;
+    }
+
+    .footer-logo{
+        margin: 20px auto 0 auto;
+    }
+
+    .top-footer-right span{
+        margin: 0px;
+    }
+
+    .link-container{
+        width: 240px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .link-container a{
+        margin: 0px;
+    }
+
+    .bottom-footer{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
 }

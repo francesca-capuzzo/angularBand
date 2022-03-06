@@ -9,7 +9,6 @@
     flex-direction: row;
     justify-content: space-evenly;
     margin-top: 40px;
-    
 }
 
 .iframe-container{
@@ -24,4 +23,20 @@
 
 p{
     color: red;
+}
+
+@media (max-width: 600px) {
+    .inner-container{
+        flex-direction: column;
+    }
+
+    .iframe-container iframe{
+        width: 360px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .container{
+        margin: 0px
+    }
 }
