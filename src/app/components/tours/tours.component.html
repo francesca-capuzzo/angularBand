@@ -1,1 +1,7 @@
-<div class="container"></div>
+<div class="container">
+    <h1>Legacy Of The Beast World Tour - 2022</h1>
+    <h2>May</h2>
+    <app-tour-element *ngFor="let tour of tourListMay" [tour] = "tour"></app-tour-element>
+    <h2>June</h2>
+    <app-tour-element *ngFor="let tour of tourListJune" [tour] = "tour"></app-tour-element>
+</div>
